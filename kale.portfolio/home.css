@@ -1,0 +1,350 @@
+#navbar {
+  background-color: rgb(36, 38, 42);
+  padding: 1rem;
+  height: 60px;
+}
+
+/* Style the 'Kale' brand */
+#kale {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+/* Make collapse take full width on desktop */
+#navBarNav {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+body {
+  padding-top: 0px;
+  /* adjust value depending on navbar height */
+  margin-top: 0px;
+}
+
+
+/* Remove default list styling and space links */
+#barLists {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style nav links */
+#barLists .nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#barLists .nav-link:hover {
+  color: rgb(170, 0, 255);
+}
+
+#imageContainer {
+  margin-top: 150px;
+}
+
+.container1 {
+  height: 650px;
+  background-image: url(https://images.pexels.com/photos/30881648/pexels-photo-30881648/free-photo-of-geometric-architectural-patterns-in-shadowed-hallway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+#header {
+  margin-top: 60px;
+  /* Push the whole header down */
+}
+
+#ilove {
+  margin-top: 150px;
+}
+
+/* Style for the h1 text */
+.h1-large {
+  color: white;
+  /* Make the text white */
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+#btn1 {
+  display: inline-block;
+  padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+  border: 1px solid #0b36a8;
+  background-color: #0b36a8;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+#btn2 {
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+}
+
+.container2 {
+  height: 450px;
+  background-color: rgb(247, 249, 251);
+}
+
+.h3-large {
+  color: rgb(0, 0, 0);
+  line-height: 3.25rem;
+  font-weight: 700;
+  font-size: xx-large;
+  text-align: left;
+}
+
+.p11 {
+  text-align: left;
+  color: rgb(77, 80, 85);
+  font-weight: 500;
+
+}
+
+#about1 {
+  margin-top: 100px;
+}
+
+#timecont {
+  text-align: left;
+}
+
+.time {
+  color: black;
+  font-weight: 700;
+}
+
+#timecont h6 {
+  color: rgb(77, 80, 85);
+}
+
+#timecont p {
+  color: rgb(77, 80, 85);
+}
+
+#timecont2 {
+  text-align: left;
+}
+
+#timecont2 p {
+  color: rgb(77, 80, 85);
+}
+
+#timecont2 h6 {
+  color: rgb(77, 80, 85);
+}
+
+.services {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.services h2 {
+  font-weight: 700;
+}
+
+.services p {
+  color: rgb(77, 80, 85);
+}
+
+#cb1 {
+  text-align: left;
+  height: 350px;
+  padding: 50px;
+}
+
+#cb1 i {
+  color: rgb(11, 54, 168);
+  margin-bottom: 30px;
+
+}
+
+#cb2 {
+  text-align: left;
+  height: 300px;
+
+}
+
+#cb2 i {
+  color: rgb(11, 54, 168);
+  margin-bottom: 30px;
+}
+
+.container4 {
+  margin-top: 150px;
+  background-color: rgb(247, 249, 251);
+}
+
+#theone {
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+#theone p {
+  color: rgb(77, 80, 85);
+}
+
+#theone h5 {
+  font-weight: 650;
+}
+
+#contco {
+  padding: 0;
+}
+
+#contco img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imageContain img {
+  width: 50px;
+}
+
+.imageContain {
+  margin-top: 30px;
+}
+
+.ct51 {
+  text-align: center;
+  padding: 150px;
+}
+
+.ct51 h3 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.ct51 p {
+  color: rgb(77, 80, 85);
+}
+
+.container5 {
+  height: 3000px;
+}
+
+#imgcont1 {
+  padding: 75px;
+  padding-top: 0px;
+}
+
+#imgcont1 p {
+  margin-top: 10px;
+}
+
+#colrepeat p {
+  text-align: left;
+}
+
+.hc7 {
+  margin-top: 100px;
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.hc7 h2 {
+  font-weight: 700;
+}
+
+#humans {
+  margin-top: 50px;
+}
+
+#humans p {
+  color: rgb(77, 80, 85);
+  text-align: left;
+}
+
+#humans h5 {
+  text-align: left;
+}
+
+.container8 {
+  background-color: rgb(247, 249, 251);
+}
+
+.ct81 {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.ct81 h3 {
+  font-weight: 700;
+}
+
+.ct81 p {
+  color: rgb(77, 80, 85);
+}
+
+.form1 {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#formGroupExampleInput {
+  border-radius: 0%;
+  height: 50px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#formGroupExampleInput2 {
+  border-radius: 0%;
+  font-weight: 700;
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+#formGroupExampleInput3 {
+  height: 250px;
+  text-align: start;
+  border-radius: 0%;
+  padding-bottom: 200px;
+  font-weight: 700;
+}
+
+#fb {
+  display: inline-block;
+  width: 100%;
+  height: 3.25rem;
+  border: 1px solid #0b36a8;
+  border-radius: 32px;
+  background-color: #0b36a8;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#fb:hover {
+  background-color: rgb(243, 246, 250);
+  color: black;
+  display: inline-block;
+  border: 1px solid  rgb(87, 91, 98) ;
+}
+.container9{
+  height: 300px;
+  background-color: rgb(36,38,42);
+}
